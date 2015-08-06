@@ -8,7 +8,7 @@ public class TimeManager : MonoBehaviour {
 	public AutoGenerationManager GenerateNumbers;
 
 	private const float kSecondsInMinute = 60.0f;
-	public int kMinutesTillNewGame = 3;
+	public int kMinutesTillNewGame = 300;
 	private int minutes;
 	private float seconds;
 
